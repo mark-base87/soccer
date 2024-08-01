@@ -137,4 +137,4 @@ if __name__ == "__main__":
     threading.Timer(1, open_browser).start()
 
     # Run the Flask application
-    app.run(host='0.0.0.0",port=5000)
+    app.run(host='0.0.0.0',port=5000)
