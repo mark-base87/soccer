@@ -1,5 +1,6 @@
 services:
   web:
     build: .
+    privileged: true
     ports:
-      - "8080:5000"
+      - "5000:5000"
